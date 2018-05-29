@@ -14,6 +14,7 @@
 		8CFE70D020BD28C300663389 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CFE70CE20BD28C300663389 /* LaunchScreen.storyboard */; };
 		8CFE70D320BD28C300663389 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE70D220BD28C300663389 /* main.m */; };
 		8CFE70DD20BD28C400663389 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE70DC20BD28C400663389 /* ___UITests.m */; };
+		8CFE70E920BD380000663389 /* ImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE70E820BD380000663389 /* ImageModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		8CFE70D820BD28C400663389 /* 对对碰UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "对对碰UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFE70DC20BD28C400663389 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		8CFE70DE20BD28C400663389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CFE70E720BD380000663389 /* ImageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageModel.h; sourceTree = "<group>"; };
+		8CFE70E820BD380000663389 /* ImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				8CFE70CE20BD28C300663389 /* LaunchScreen.storyboard */,
 				8CFE70D120BD28C300663389 /* Info.plist */,
 				8CFE70D220BD28C300663389 /* main.m */,
+				8CFE70E720BD380000663389 /* ImageModel.h */,
+				8CFE70E820BD380000663389 /* ImageModel.m */,
 			);
 			path = "对对碰";
 			sourceTree = "<group>";
@@ -206,6 +211,7 @@
 				8CFE70C820BD28C100663389 /* ViewController.m in Sources */,
 				8CFE70D320BD28C300663389 /* main.m in Sources */,
 				8CFE70C520BD28C100663389 /* AppDelegate.m in Sources */,
+				8CFE70E920BD380000663389 /* ImageModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
